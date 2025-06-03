@@ -1,0 +1,173 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Скрытие стандартного скроллбара */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Базовые стили для документа */
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family, "Inter", sans-serif);
+    color: var(--textColor, #333333);
+    background-color: #fff;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+
+/* Очистка стилей списка */
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Удаление стандартного оформления ссылок */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Корректировка стандартных стилей кнопок */
+button, input, textarea {
+    font-family: inherit;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Улучшение доступности изображений */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Дополнительные стили для элементов формы */
+input, textarea {
+    width: 100%;
+    padding: var(--sm);
+    font-size: var(--text-base-size);
+}
+
+:root {
+    /*----Paddings, Margins----*/
+    --xs: 8px;
+    --s: 12px;
+    --sm: 16px;
+    --md: 24px;
+    --lg: 32px;
+    --xl: 40px;
+
+    /*----Fonts----*/
+    --font-family: "Inter", sans-serif;
+
+    /*------ Font weights ------*/
+    --font-weight-thin: 100;
+    --font-weight-extra-light: 200;
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+    --font-weight-black: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+:root {
+    --primary-color: #ffffff; /* Основной цвет (белый фон) */
+    --secondary-color: #f5f5f5; /* Светлый фон для секций */
+    --text-color: #333333; /* Темный текст */
+    --accent-color: #0078ff; /* Акцентный цвет (например, кнопки) */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(120deg, #f5f5f5, #ffffff);
+}
+
+
+/* Контейнер заголовка */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: var(--secondary-color);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Логотип */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+/* Кнопки и ссылки */
+.button {
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--accent-color);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #005bbf;
+}
+
+/* Основной контент */
+.main-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+/* Карточки или блоки */
+.card {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}

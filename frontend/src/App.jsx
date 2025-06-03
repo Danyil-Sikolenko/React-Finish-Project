@@ -11,7 +11,7 @@ import './App.css'
     path: "/",
     element: <Layout />,
     children: [
-      { index: true, element: <div>Hello World</div> },
+      { index: true, element: <div>Start</div>},
     ]
   },
 ]);
