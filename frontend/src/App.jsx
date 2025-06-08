@@ -3,6 +3,7 @@ import Layout from "./components/Layout";
 import { RouterProvider } from 'react-router'
 import Home from "./pages/home";
 import './App.css'
+import HotelsDataList from "./pages/hotels";
 
 
 
@@ -14,7 +15,7 @@ import './App.css'
     children: [
       { index: true, element: <Home />},
       { path: 'about', element: <div>About Us</div>},
-      { path: 'hotels', element: <div>Hotels</div>},
+      { path: 'hotels', element: <HotelsDataList /> },
       { path: 'more', element: <div>More</div>},
     ]
   },
