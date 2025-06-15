@@ -1,0 +1,53 @@
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.sort_controls {
+    margin-bottom: 20px; 
+    padding: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: #dfe3fa; 
+    gap: 10px;
+}
+.container_btn {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hotel_list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.hotel_card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.hotel_image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.hotel_info {
+    margin-top: 10px;
+}

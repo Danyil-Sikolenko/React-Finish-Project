@@ -25,7 +25,8 @@
 }
 
 .navMenu .item:hover {
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
+   box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
 }
 
 .signup {
@@ -53,5 +54,28 @@
   justify-content: center;
 }
 
+.item {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
 
+.item.active {
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
+}
+
+
+.signup {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+.signup.active {
+  font-weight: bold;
+  color: red;
+}
 

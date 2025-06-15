@@ -32,3 +32,44 @@ app.post('/data', (req, res) => {
 
 app.listen(3000, () => console.log('The server is running on port 3000'));
 
+
+
+
+
+// API поиска в destination
+app.get('/search/destination', (req, res) => {
+    const { query } = req.query;
+    if (!query) return res.status(400).send('Введите поисковый запрос');
+
+    fs.readFile(DATA_FILE, 'utf8', (err, data) => {
+        if (err) return res.status(500).send('Ошибка чтения данных');
+        
+        const jsonData = JSON.parse(data);
+        const results = jsonData.destination.filter(item =>
+            item.label.toLowerCase().includes(query.toLowerCase())
+        );
+
+        res.json(results);
+    });
+});
+
+// API поиска в hotels
+app.get('/search/hotels', (req, res) => {
+    const { query } = req.query;
+    if (!query) return res.status(400).send('Введите поисковый запрос');
+
+    fs.readFile(DATA_FILE, 'utf8', (err, data) => {
+        if (err) return res.status(500).send('Ошибка чтения данных');
+        
+        const jsonData = JSON.parse(data);
+        const results = jsonData.hotels.filter(item =>
+            item.name.toLowerCase().includes(query.toLowerCase()) ||
+            item.city.toLowerCase().includes(query.toLowerCase())
+        );
+
+        res.json(results);
+    });
+});
+
+
+

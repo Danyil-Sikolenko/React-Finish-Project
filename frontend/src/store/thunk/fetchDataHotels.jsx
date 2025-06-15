@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
-const API_DATA_HOTELS = 'http://localhost:3000/data';
+export const API_DATA_HOTELS = 'http://localhost:3000/data';
 
 export const fetchDataHotels = createAsyncThunk(
     'data/getDataHotels',
@@ -12,13 +12,10 @@ export const fetchDataHotels = createAsyncThunk(
             }
             const data = await response.json()
 
-            console.log(" Полученные данные:", data); // Проверяем JSON-ответ
-
             return {
-                destinations: data.destination, // Сохраняем массив `destination`
-                hotels: data.hotels, // Сохраняем массив `hotels`
+                destinations: data.destination, 
+                hotels: data.hotels, 
             };
-             //потому что у нас несколько масивов в обьекте поэотму такая запись 
         }
         catch (err) {
 
@@ -28,3 +25,7 @@ export const fetchDataHotels = createAsyncThunk(
 
     }
 )
+// нужно создать гет запрос на пошук за инпутом
+
+
+

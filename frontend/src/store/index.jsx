@@ -4,7 +4,6 @@ import dataHotelReduser from "./slice/dataHotelsSlice.jsx";
 const store = configureStore({
     reducer: {
         hotelsData: dataHotelReduser,
-
     }
 })
 
