@@ -8,7 +8,6 @@ function CityFilterButtons() {
     const dispatch = useDispatch();
     const { destinations } = useSelector((state) => state.hotelsData);
 
-    // Используем Set для удаления повторяющихся городов
     const uniqueCities = [...new Set(destinations.map(item => item.label))];
 
     return (
@@ -34,8 +33,8 @@ function CityFilterButtons() {
             </CustomButton>
             <div className={styles.container_btn}>
            
-            {uniqueCities.map((city, index) => (
-                <Button variant="contained" key={index} onClick={() => dispatch(filterHotelsByCity(city))}>
+            {uniqueCities.map((city) => (
+                <Button variant="contained" key={city} onClick={() => dispatch(filterHotelsByCity(city))}>
                     {city}
                 </Button>
             ))}

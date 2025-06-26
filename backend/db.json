@@ -135,7 +135,7 @@
       "id": 747134,
       "name": "Redford Hotel",
       "address": "136 Ludlow Street",
-      "city": "New York",
+      "city": "Atlanta",
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 3.5,
@@ -147,7 +147,7 @@
       "id": 720550,
       "name": "Hotel Richland New York",
       "address": "5 Allen Street",
-      "city": "New York",
+      "city": "Atlanta",
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 3,
@@ -159,23 +159,25 @@
       "id": 797074,
       "name": "Studio Lux Times Square",
       "address": "between 9 Avenue and 8 Avenue",
-      "city": "New York",
+      "city": "Atlanta",
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 2.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww"
     },
     {
       "id": 742987,
       "name": "The Bowery Hotel",
       "address": "335 Bowery",
-      "city": "New York",
+      "city": "Celebration",
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1606046604972-77cc76aee944?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D"
     },
     {
       "id": 743452,
@@ -186,18 +188,21 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": "1-212-398-2700",
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1590447158019-883d8d5f8bc7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D"
     },
     {
       "id": 260469,
       "name": "The Ridge Hotel",
       "address": "151 East Houston Street",
-      "city": "New York",
+      "city": "Celebration",
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": "1 212 777-0012",
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWxzfGVufDB8fDB8fHww"
+
     },
     {
       "id": 740399,
@@ -208,7 +213,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1625244695851-1fc873f942bc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 5018104,
@@ -219,7 +225,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": "XX",
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1648852231208-21ce6bd2768b?q=80&w=1240&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 792811,
@@ -230,7 +237,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1579625224451-b0ab6ed101f5?q=80&w=1121&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 804220,
@@ -241,7 +249,8 @@
       "country_code": "US",
       "hotel_rating": 2.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1621293954908-907159247fc8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 5018107,
@@ -252,7 +261,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": "17186985000",
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 700390,
@@ -263,7 +273,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1598598795009-f80c5072e665?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 742946,
@@ -274,7 +285,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1718585322553-a77879e06ad5?q=80&w=1188&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 776932,
@@ -285,7 +297,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "121-247-51920",
-      "website": "https://freehandhotels.com/new-york/rooms/"
+      "website": "https://freehandhotels.com/new-york/rooms/",
+      "imageUrl": "https://images.unsplash.com/photo-1504652517000-ae1068478c59?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 741741,
@@ -296,7 +309,8 @@
       "country_code": "US",
       "hotel_rating": 2,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1670360414903-19e5832f8bc4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 716815,
@@ -307,7 +321,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1620332372374-f108c53d2e03?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 802583,
@@ -318,7 +333,8 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "+1 212 842 5500",
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1718644342133-0dbb056cb7fd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 5018106,
@@ -329,7 +345,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1614568112072-770f89361490?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 751736,
@@ -340,7 +357,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": "703-261-5677",
-      "website": null
+      "website": null,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1675616563084-63d1f129623d?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 386689,
@@ -351,7 +369,8 @@
       "country_code": "US",
       "hotel_rating": 2.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1721539151779-e6dc7f9de376?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 567484,
@@ -362,7 +381,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677300,
@@ -373,7 +393,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1605346475807-2088e0897b2d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 820605,
@@ -384,7 +405,8 @@
       "country_code": "US",
       "hotel_rating": null,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1697618009092-01b24159a55a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 731189,
@@ -395,7 +417,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1693146842813-be42935ecdbd?q=80&w=1180&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 721848,
@@ -406,7 +429,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1667687822145-8b14f64d465d?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677341,
@@ -417,7 +441,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1667296583981-8ac8fdbdcb14?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677347,
@@ -428,7 +453,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1665473245428-c07d22a9e355?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 810445,
@@ -439,7 +465,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1617293672222-9a799fe55473?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677372,
@@ -450,7 +477,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1613368034176-1c00bfe88e5d?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 822534,
@@ -461,7 +489,8 @@
       "country_code": "US",
       "hotel_rating": null,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1692153142886-9881d0457b82?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 793847,
@@ -472,7 +501,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1607320895054-c5c543e9a069?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677396,
@@ -483,7 +513,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1619456480667-4eff3c697d79?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677411,
@@ -494,7 +525,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1723672833895-e82664c37af2?q=80&w=1153&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677410,
@@ -505,62 +537,68 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1664227430717-9a62112984cf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677425,
       "name": "Central 2BR in South End by Sonder",
       "address": "Tremont Street and Milford Street",
-      "city": "Boston",
+      "city": "Los Angeles",
       "state": "MA",
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1737517302831-e7b8a8eaa97c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677426,
       "name": "Classic 1BR in Fenway by Sonder",
       "address": "Beacon Street and Park dr",
-      "city": "Boston",
+      "city": "Los Angeles",
       "state": "MA",
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 721859,
       "name": "Hip 3BR in Downtown Crossing by Sonder",
       "address": "Hamilton Place",
-      "city": "Boston",
+      "city": "Los Angeles",
       "state": "MA",
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1686782502386-f3f3114ed9b4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 801610,
       "name": "Playful 2BR in South End by Sonder",
       "address": "Albany Street",
-      "city": "Boston",
+      "city": "Los Angeles",
       "state": "MA",
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1660924053994-e9a18d16b810?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677429,
       "name": "Airy 2BR in Allston by Sonder",
       "address": "Western Avenue and N Harvard",
-      "city": "Boston",
+      "city": "Los Angeles",
       "state": "MA",
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1672411866288-e961b7b43da2?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677433,
@@ -571,7 +609,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1698945298443-e316f40a1347?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677449,
@@ -582,7 +621,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1660098790870-cd3d15f2fd3c?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677450,
@@ -593,7 +633,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1671455655997-781fcdcc4bab?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677452,
@@ -604,7 +645,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1684338795288-097525d127f0?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677455,
@@ -615,7 +657,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1668169064124-2e27339780d3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677470,
@@ -626,62 +669,68 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1678286769888-ef3698e72a6c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677476,
       "name": "Smart 2BR in Brighton by Sonder",
       "address": "Commonwealth Avenue and Chestnut Hill av",
-      "city": "Boston",
+      "city": "Miami",
       "state": "MA",
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1633595917637-456478c6a28d?q=80&w=1178&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677477,
       "name": "Hip 1BR in Allston by Sonder",
       "address": "Brainerd Road and Harvard St",
-      "city": "Boston",
+      "city": "Miami",
       "state": "MA",
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1505492537188-de71a52767cb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677480,
       "name": "Smart 1BR in Downtown Crossing by Sonder",
       "address": "Arch Street and Summer st",
-      "city": "Boston",
+      "city": "Miami",
       "state": "MA",
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1676193361762-f62d54f34402?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677481,
       "name": "Hip 2BR in Allston by Sonder",
       "address": "Brainerd Road and Harvard St",
-      "city": "Boston",
+      "city": "Miami",
       "state": "MA",
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1727545562819-a7df5b14cbb8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677519,
       "name": "Charming 1BR in Fenway by Sonder",
       "address": "Beacon Street and Park dr",
-      "city": "Boston",
+      "city": "Miami",
       "state": "MA",
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1667125094717-47e0ff6d0608?q=80&w=1163&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677520,
@@ -692,7 +741,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1673429451243-3af566c5defc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 705227,
@@ -703,7 +753,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1664985335522-8c00b5c9dae6?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 696618,
@@ -714,7 +765,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1744807818861-6985efe42ae7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677526,
@@ -725,7 +777,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1557071958-2e522b4a7ee5?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677527,
@@ -736,7 +789,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1623197258960-480a71198a85?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677528,
@@ -747,7 +801,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1673687778498-5ddd20749408?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677537,
@@ -758,7 +813,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1722962416309-2b2b78b80977?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 696614,
@@ -769,7 +825,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1594927100512-2510da91509d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677694,
@@ -780,7 +837,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1645619200527-c6786729c2da?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677550,
@@ -791,7 +849,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1515510621228-30de609bbd60?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 787996,
@@ -802,7 +861,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1667736416049-59e7ef421ca6?q=80&w=1285&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 731262,
@@ -813,7 +873,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1667736416025-39ca68579bc4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677559,
@@ -824,7 +885,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1689729771136-46e2ee831b83?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677565,
@@ -835,7 +897,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1689729739836-7fcc2c84d788?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677571,
@@ -846,7 +909,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1737808773486-ca1065f37217?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D"
     },
     {
       "id": 724715,
@@ -857,7 +921,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://images.unsplash.com/photo-1652400093030-d9bcdfdcd631?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677574,
@@ -868,7 +933,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1663126831394-25b3e9c9e059?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 677577,
@@ -879,7 +945,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1663061414669-bb34bcd3ff2f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 757401,
@@ -890,7 +957,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1676823553593-ac587b35a018?q=80&w=947&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ]
 }

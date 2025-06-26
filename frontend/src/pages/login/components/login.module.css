@@ -1,0 +1,16 @@
+.link{
+  color: #64c8af;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 4px;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #0a5c5d;
+  text-decoration: underline;
+}
+
+.error_message {
+  color: red;
+}

@@ -11,10 +11,13 @@ function SortButton() {
 
     return (
         <div className={styles.container}>
+            <span className={styles.label}>Expensive hotels ⬅️</span>
          <FormControlLabel
+         sx={{marginLeft: "7px"}}
             control={<Switch checked={sortAsc} onChange={() => dispatch(toggleSortOrder())} />}
-            label={sortAsc ? "По возрастанию ⭐" : "По убыванию ⭐"}
+             className={styles.switchLabel}
         />
+        <span className={styles.label}>➡️ Cheap hotels </span>
         </div>
     );
 }

@@ -9,8 +9,8 @@ function ErrorMessage({ error }) {
     return (
         <Collapse >
             <Alert severity="error" >
-                <AlertTitle>Ошибка</AlertTitle>
-                {error || "Что-то пошло не так. Попробуйте снова!"}
+                <AlertTitle>ERROR</AlertTitle>
+                {error || "Something went wrong. Please try again!"}
             </Alert>
         </Collapse>
     );
