@@ -51,15 +51,19 @@ function CitySelector() {
     <Paper
       component="form"
       sx={{
-    width: "600px",
-    padding: '2px 4px',
-    display: 'flex',
-    alignItems: 'center',
-    borderRadius: '15px',
-    position: 'relative',
-    bottom: '40px',
-    margin: '0 auto'
-}}
+        width: {
+          xs: '90%',        
+          sm: '400px',      
+          md: '600px'       
+        },
+        padding: '2px 4px',
+        display: 'flex',
+        alignItems: 'center',
+        borderRadius: '15px',
+        position: 'relative',
+        bottom: '40px',
+        margin: '0 auto'
+      }}
       onSubmit={(e) => e.preventDefault()}
     >
       <IconButton sx={{ padding: '10px' }} aria-label="menu">
@@ -73,12 +77,19 @@ function CitySelector() {
         placeholder="Enter city or hotel"
       />
 
-      <IconButton onClick={handleSearch} sx={{ padding: '10px' }} aria-label="search">
-            <SearchIcon />
+      <IconButton onClick={handleSearch} sx={{
+          padding: '10px',
+          '& svg': {
+            fontSize: { xs: '20px', md: '24px' }
+          }
+        }}
+        aria-label="search"
+      >
+        <SearchIcon />
       </IconButton>
       <Divider sx={{ height: 28, margin: 0.5 }} orientation="vertical" />
       <IconButton onClick={removeSearch} color="primary" sx={{ padding: '10px' }} aria-label="directions">
-        <DeleteIcon  sx={{fill: "#64c8af" }}/>
+        <DeleteIcon sx={{ fill: "#64c8af" }} />
       </IconButton>
     </Paper>
   );

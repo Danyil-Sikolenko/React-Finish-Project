@@ -17,11 +17,16 @@
 
 .sub_nav {
     margin-bottom: 40px;
-
 }
 
 a {
     color: #181a18;
+}
+
+.main_list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 .banner {
@@ -109,7 +114,6 @@ button {
     bottom: -110px;
 }
 
-
 .copy {
   font-size: 14px;
   text-align: center;
@@ -119,4 +123,143 @@ button {
 
 .copy:hover {
   opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .main_title {
+    font-size: 26px;
+    padding-top: 20px;
+  }
+
+  .sub_nav ul {
+    flex-direction: column;
+    gap: 5px;
+    padding: 0;
+  }
+
+  .item {
+    font-size: 15px;
+  }
+
+  .banner {
+    height: 40vh;
+  }
+
+  .management h2 {
+    font-size: 24px;
+  }
+
+  .management p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .item_management {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .item_management_title {
+    font-size: 18px;
+  }
+
+  .item_management_sub_title {
+    font-size: 14px;
+  }
+
+  ul:last-of-type {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .bespoke_title {
+    font-size: 28px;
+    padding-left: 20px;
+  }
+
+  .bespoke_sub_title {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+
+  .copy {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .main_title {
+    font-size: 32px;
+  }
+
+  .sub_nav ul {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .item_management {
+    padding: 28px;
+  }
+
+  .management p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main_title {
+    font-size: 36px;
+  }
+
+  .item {
+    font-size: 17px;
+  }
+
+  .management h2 {
+    font-size: 32px;
+  }
+
+  ul:last-of-type {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .item_management {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .main_title {
+    font-size: 40px;
+  }
+
+  .item {
+    font-size: 18px;
+  }
+
+  .management p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1441px) {
+  .main_title {
+    font-size: 42px;
+  }
+
+  .item_management {
+    padding-right: 120px;
+  }
+
+  .management h2 {
+    font-size: 40px;
+  }
+
+  .management p {
+    max-width: 800px;
+  }
 }

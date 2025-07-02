@@ -1,9 +1,9 @@
-import { API_DATA_HOTELS } from "../store/thunk/fetchDataHotels";
+import { API_PATHS } from "../services/api/index";
 
 
   export async function HotelLoader({ params }) {
     try {
-        const response = await fetch(`${API_DATA_HOTELS}/${params.id}`);
+        const response = await fetch(`${API_PATHS.DATA_HOTELS}/${params.id}`);
 
         if (!response.ok) {
             throw new Error(`Error ${response.status}: ${response.statusText}`);

@@ -1,5 +1,5 @@
 import { createBrowserRouter, } from "react-router";
-import { RouterProvider } from 'react-router'
+import { RouterProvider } from "react-router";
 
 import Layout from "./components/Layout";
 import PrivateRoute from "./components/privateRout/index.jsx";
@@ -15,8 +15,7 @@ import SignUp from "./pages/signup/components/index.jsx";
 import AboutProject from "./pages/about-us/components/index.jsx";
 import NotFoundPage from "./pages/Error-404/components/index.jsx";
 
-import './App.css'
-
+import "./App.css"
 
 const router = createBrowserRouter([
   {
@@ -25,33 +24,27 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: 'about', element: <AboutProject /> },
-      { path: 'hotels', element: <HotelsDataList /> },
+      { path: 'hotels', element: <HotelsDataList />},
       { path: 'hotel/:id', element: <Hotel />, loader: HotelLoader },
       { path: 'more', element: <MorePage /> },
       {
         path: 'myHotels', element:
           <PrivateRoute >
-
             <MyHotels />
-
           </PrivateRoute>
       },
     ]
   },
-      { path: "login", element: <Login /> },
-      { path: "signup", element: <SignUp /> },
-      {path:'*', element: <NotFoundPage />}
+  { path: "login", element: <Login /> },
+  { path: "signup", element: <SignUp /> },
+  { path: '*', element: <NotFoundPage /> }
 ]);
-
-
 
 
 function App() {
 
   return (
-    <RouterProvider router={router}>
-
-    </RouterProvider>
+    <RouterProvider router={router} />
   )
 }
 

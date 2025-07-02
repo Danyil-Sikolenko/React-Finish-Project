@@ -29,7 +29,6 @@ const dataHotesSlice = createSlice({
             .addCase(fetchDataHotels.pending, (state) => {
                 state.loading.true
             })
-
             .addCase(fetchDataHotels.fulfilled, (state, action) => {
                 state.loading = false
 
@@ -37,13 +36,12 @@ const dataHotesSlice = createSlice({
                 state.hotels = action.payload.hotels;
                 state.filteredHotels = action.payload.hotels;
             })
-
             .addCase(fetchDataHotels.rejected, (state, action) => {
                 state.loading = false
                 state.error = action.payload
             })
     }
-
 });
+
 export default dataHotesSlice.reducer;
 export const { toggleSortOrder, filterHotelsByCity } = dataHotesSlice.actions;

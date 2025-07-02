@@ -1,8 +1,5 @@
-
 import { createSlice } from '@reduxjs/toolkit';
 import { fetchCities } from '../thunk/fetchDataHotels';
-
-
 
 const citySlice = createSlice({
   name: 'city',

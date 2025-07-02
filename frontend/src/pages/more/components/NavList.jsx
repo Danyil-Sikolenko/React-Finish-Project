@@ -10,7 +10,7 @@ function NavList () {
         <>
           <h1 className={styles.main_title }>Flex Living<br/> Insights</h1>
             <div className={styles.sub_nav}>
-                <ul style={{display: "flex", gap: "50px", justifyContent:"center" }}>
+                <ul className={styles.main_list}>
                     <li className={styles.item}>
                         <a href="#">View all</a>
                     </li>

@@ -16,7 +16,6 @@ const authSlice = createSlice ( {
             state.user = null;
             state.token = null;
             localStorage.removeItem('user');
-            
         } 
     },
     extraReducers: (builder) => {
@@ -32,14 +31,11 @@ const authSlice = createSlice ( {
             state.user = action.payload;
             state.token = action.payload.token;
             localStorage.setItem('user', JSON.stringify(action.payload));
-
         })
         .addCase(login.rejected , (state , action ) => {
             state.loading = false;
             state.error = action.payload || 'Login Failed';
         })
-
-
          .addCase( signUp.pending , (state) => {
             state.loading = true;
             state.error = '';
@@ -52,9 +48,7 @@ const authSlice = createSlice ( {
             state.loading = false;
             state.error = action.payload || 'SugnUp Failed';
         })
-
     }
-       
 })
 
 export default authSlice.reducer

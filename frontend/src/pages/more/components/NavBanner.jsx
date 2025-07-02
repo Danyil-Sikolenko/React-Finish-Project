@@ -2,7 +2,6 @@ import { useNavigate } from "react-router";
 import CustomButton from "../../../components/UI/atoms/CustomButton";
 import styles from "./more.module.css";
 
-
 function NavBanner() {
 
     const navigate = useNavigate();

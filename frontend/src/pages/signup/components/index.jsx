@@ -166,8 +166,6 @@ const SignUp = () => {
         </Box>
       </Box>
     </Box>
-
-
   );
 };
 

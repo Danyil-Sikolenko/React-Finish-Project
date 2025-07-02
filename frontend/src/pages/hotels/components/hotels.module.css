@@ -1,17 +1,18 @@
-
-.container{
+.container {
     max-width: 1200px;
     margin: auto;
     text-align: center;
 }
+
 .sort_controls {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     padding: 15px;
-    border: 1px solid #ccc; 
-    border-radius: 8px; 
-    background-color: #dfe3fa; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #dfe3fa;
     gap: 10px;
 }
+
 .container_btn {
     text-align: center;
     display: flex;
@@ -22,7 +23,7 @@
 
 .hotel_list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     max-width: 1200px;
     margin: auto;
@@ -51,6 +52,7 @@
 .hotel_info {
     margin-top: 10px;
 }
+
 .switchLabel {
     font-size: 14px;
     color: #1976d2;
@@ -61,4 +63,110 @@
     font-size: 16px;
     font-weight: bold;
     color: #333;
+}
+
+
+@media (max-width: 1142px) {
+    .hotel_list {
+        grid-template-columns: none;
+    }
+
+    .hotel_card {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .sort_controls {
+        padding: 10px;
+        margin-bottom: 15px;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .container_btn {
+        align-items: center;
+    }
+
+    .hotel_image {
+        height: 180px;
+    }
+
+    .switchLabel,
+    .label {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .hotel_list {
+        grid-template-columns: none;
+    }
+
+    .hotel_image {
+        height: 170px;
+    }
+
+    .label {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .sort_controls {
+        padding: 10px;
+        gap: 8px;
+    }
+
+    .hotel_image {
+        height: 160px;
+    }
+
+    .switchLabel,
+    .label {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 5px;
+    }
+
+    .sort_controls {
+        padding: 8px;
+        margin-bottom: 10px;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .container_btn {
+        align-items: center;
+        gap: 8px;
+    }
+
+    .hotel_list {
+        grid-template-columns: 1fr;
+        padding: 5px;
+    }
+
+    .hotel_card {
+        padding: 10px;
+    }
+
+    .hotel_image {
+        height: 150px;
+    }
+
+    .switchLabel,
+    .label {
+        font-size: 12px;
+    }
 }

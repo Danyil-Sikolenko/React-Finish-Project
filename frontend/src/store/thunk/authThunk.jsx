@@ -1,12 +1,11 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-
-const API_DATA_HOTELS = 'http://localhost:3000';
+import { API_PATHS } from "../../services/api/index";
 
 export const login = createAsyncThunk(
     "auth/login",
     async ({ email, password }, { rejectWithValue }) => {
         try {
-            const response = await fetch(`${API_DATA_HOTELS}/login`, {
+            const response = await fetch(`${API_PATHS.LOGIN}`, {
                 method: 'POST',
                 headers: { 'Content-type': 'application/json' },
                 body: JSON.stringify( { email, password } )
@@ -33,7 +32,7 @@ export const signUp = createAsyncThunk(
     "auth/signUp",
     async ( { name, email, password }, { rejectWithValue } ) => {
         try {
-            const response = await fetch(`${API_DATA_HOTELS}/signup`, {
+            const response = await fetch(`${API_PATHS.SIGNUP}`, {
                 method: 'POST',
                 headers: { 'Content-type': 'application/json' },
                 body: JSON.stringify({ name, email, password })

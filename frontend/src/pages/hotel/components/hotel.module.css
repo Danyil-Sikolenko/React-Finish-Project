@@ -34,3 +34,75 @@
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
 }
+
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .hotel_baner {
+    width: 100%;
+    height: 220px;
+  }
+
+  .main_images {
+    height: 100%;
+  }
+
+  .section {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+  }
+
+  .hotel_baner {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 25px;
+  }
+
+  .hotel_baner {
+    width: 100%;
+    height: 280px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .container {
+    gap: 30px;
+    padding: 30px;
+  }
+
+  .hotel_baner {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1441px) {
+  .container {
+    max-width: 1000px;
+  }
+
+  .hotel_baner {
+    width: 450px;
+    height: 320px;
+  }
+}
+
